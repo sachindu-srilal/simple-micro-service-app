@@ -1,4 +1,4 @@
 export class Course{
-  constructor(public code:string, public description:string, public duration:number) {
+  constructor(public id:string, public description:string, public duration:string) {
   }
 }
