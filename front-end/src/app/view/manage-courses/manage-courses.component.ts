@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {Course} from "../../dto/course";
+import {Course} from "../../dto/Course";
 
 @Component({
   selector: 'app-manage-courses',

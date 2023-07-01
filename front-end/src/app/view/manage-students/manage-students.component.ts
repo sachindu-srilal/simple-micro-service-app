@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Student} from "../../dto/student";
+import {Student} from "../../dto/Student";
 import {HttpClient} from "@angular/common/http";
 
 @Component({
