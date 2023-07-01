@@ -13,6 +13,8 @@ import java.sql.Statement;
 import java.util.List;
 import java.util.Optional;
 
+import static lk.ijse.dep10.backend.dao.util.Mappers.STUDENT_ROW_MAPPER;
+
 @Repository
 public class StudentDAOImpl implements StudentDAO {
     private final JdbcTemplate jdbcTemplate;
